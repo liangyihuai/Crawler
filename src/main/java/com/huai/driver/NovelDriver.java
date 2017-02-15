@@ -23,6 +23,11 @@ public abstract class NovelDriver implements Driver{
         return result;
     }
 
+    /**
+     * 复制链接
+     * @param src
+     * @param dist
+     */
     public void copyLinks(Set<String> src, Set<String> dist){
         dist.clear();
         for(String str: src){

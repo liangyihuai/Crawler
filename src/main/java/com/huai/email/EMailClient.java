@@ -8,20 +8,21 @@ import java.util.Date;
 import java.util.Properties;
 
 /**
+ * 发送邮件
  * Created by liangyh on 2/12/2017.
  */
 public class EMailClient {
 
     // 发件人的邮箱和密码（替换为自己的邮箱和密码）
-    public static String myEmailAccount = "liangyhgood@163.com";
-    public static String myEmailPassword = "9303232632";
+    public static String myEmailAccount = "XXXXXX@163.com";
+    public static String myEmailPassword = "XXXXXXX";
 
     // 发件人邮箱的 SMTP 服务器地址, 必须准确, 不同邮件服务器地址不同, 一般格式为: smtp.xxx.com
     // 网易163邮箱的 SMTP 服务器地址为: smtp.163.com
     public static String myEmailSMTPHost = "smtp.163.com";
 
     // 收件人邮箱（替换为自己知道的有效邮箱）
-    public static String receiveMailAccount = "1757153156@qq.com";
+    public static String receiveMailAccount = "XXXXXXX@qq.com";
 
     public static void sendEMail (String content) throws Exception {
         // 1. 创建参数配置, 用于连接邮件服务器的参数配置
