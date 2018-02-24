@@ -1,8 +1,8 @@
-# Crawler
-
 懒惰的追小说者：一个自动推送最新更新的小说内容的小应用
 
+A crawler to crawl a network novel. It listens and dowloads the new updating section of the novel automatically.
 
+***
 
 # 需求：
 
